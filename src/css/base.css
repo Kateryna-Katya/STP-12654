@@ -2,7 +2,7 @@ body{
   background: #06001c;
   background-image: url("/img/back/mob.png");
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: bottom center;
   background-size: cover;
   font-family: "Anek Latin", sans-serif;
     font-weight: 400;
