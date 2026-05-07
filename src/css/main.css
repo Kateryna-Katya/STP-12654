@@ -210,7 +210,7 @@ font-family: "Anek Latin", sans-serif;
     margin-top: 8px;
 }
 .choose-item:hover .choose-btn{
-    box-shadow: 2px 2px 20px 0 #f03bff;
+box-shadow: 4px 3px 27px 0 #f03bff;
 }
 .pay-img{
     margin-top: auto;
@@ -366,4 +366,102 @@ width: 92px;
     padding-top: 60px;
     padding-bottom: 40px;
 }
+}
+/* About */
+.about-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.about-title{
+    width: 300px;
+    font-family: "Anek Latin", sans-serif;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 1.09091;
+        text-align: center;
+        color: #fff;
+}
+.about-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.about-item{
+border-radius: 30px;
+    width: 335px;
+padding: 10px 16px;
+    background: rgba(120, 1, 140, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-item-wrapper{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+border: 1px solid #eb00fe;
+    border-radius: 20px;
+    padding: 20px 16px;
+    width: 302px;
+    height: auto;
+    background: rgba(120, 1, 140, 0.15);
+}
+.about-item-title{
+    font-family: "Anek Latin", sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.5;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+}
+.about-item-text{
+        font-size: 14px;
+        line-height: 1.42857;
+        text-align: center;
+        color: #e3e1eb;
+}
+@media only screen and (min-width: 1440px) {
+ .about-title{
+        font-size: 68px;
+        line-height: 1.05882;
+        width: 1116px;
+ }
+ .about-container{
+    gap: 32px;
+ }
+ .about-text{
+    width: 976px;
+        font-size: 24px;
+        line-height: 1.33333;
+ }
+ .about-list{
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+ }
+ .about-item{
+    width: 584px;
+        height: 212px;
+        padding: 20px 28px;
+ }
+ .about-item-wrapper{
+    padding: 36px;
+        width: 527px;
+        height: 172px;
+        gap: 20px;
+ }
+ .about-item-title{
+    font-size: 24px;
+ }
+ .about-item-text{
+    font-size: 16px;
+    line-height: 1.5;
+ }
 }
